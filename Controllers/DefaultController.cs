@@ -22,7 +22,7 @@ namespace PortflioProject.Controllers
             return View();
         }
         [HttpPost]
-        //deneme yorum satiri
+        //deneme yorum satiri yeniden deneme
         public ActionResult Index(Contact contact)
         {
             contact.SendDate = DateTime.Parse(DateTime.Now.ToShortDateString());
