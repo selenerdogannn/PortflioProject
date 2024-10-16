@@ -1,0 +1,5 @@
+# Visual Studio geçici dosyaları
+.vs/
+# .gitignore dosyasına eklemeniz gereken satırlar
+Desktop/
+source/
