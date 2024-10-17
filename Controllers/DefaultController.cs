@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Razor.Generator;
 using PortflioProject.Models;
 
 namespace PortflioProject.Controllers
@@ -80,6 +81,30 @@ namespace PortflioProject.Controllers
         public PartialViewResult PartialFooter()
         {
             return PartialView();
+        }
+
+        public PartialViewResult PartialEducation()
+        {
+            var va = context.Education.ToList();
+            return PartialView(va);
+        }
+
+        public PartialViewResult PartialProfessional()
+        {
+            var va = context.Service.ToList();
+            return PartialView(va);
+        }
+
+        public PartialViewResult PartialProjects()
+        {
+            var va = context.Expertise.ToList();
+            return PartialView(va);
+        }
+
+        public PartialViewResult PartialTestimonial()
+        {
+            var va = context.Contact.ToList();
+            return PartialView(va);
         }
     }
 }

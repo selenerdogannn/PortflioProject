@@ -534,6 +534,10 @@
     <Content Include="Views\Contact\PartialContactDetail.cshtml" />
     <Content Include="Views\Contact\PartialContactLocation.cshtml" />
     <Content Include="Views\Default\PartialFooter.cshtml" />
+    <Content Include="Views\Default\PartialEducation.cshtml" />
+    <Content Include="Views\Default\PartialProfessional.cshtml" />
+    <Content Include="Views\Default\PartialProjects.cshtml" />
+    <Content Include="Views\Default\PartialTestimonial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
